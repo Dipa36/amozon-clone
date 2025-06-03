@@ -23,9 +23,9 @@ ul.appendChild(li);
         return;
 
     }
-    alert("thank you your order has been placed.");
+    alert("Thank you your order has been placed.");
     cart = []
     localStorage.setItem("cart",JSON.stringify(cart));
-    window.location.href ="index.html";
+    window.location.href ="index.html"
  }
  rendercheckout();
